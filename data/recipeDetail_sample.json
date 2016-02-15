@@ -1,0 +1,19 @@
+{
+    "id": "12",
+    "title": "Recipe Name Lorem",
+    "image_url": "images/bread.png",
+    "total_time":"30 mins",
+    "prep_time":"30 mins",
+    "cook_time":"2 hrs",
+    "my_opinion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "ingredients": [{"quantity":1, "uom":"tablespoon","item":"olive oil"},
+    {"quantity":2, "item":"carrots ,diced"},
+    {"quantity":2, "item":"onions"},
+    {"quantity":1, "uom":"tablespoon","item":"salt"},
+    {"quantity":1,"item":"zuccini diced"}],
+    "directions": [{"step": "Heat olive oil in a large stock pot over medium heat. Add carrots, onions and salt and saute 5-10 minutes."}, 
+    {"step": "Add zucchini, jalapeño, bell pepper, and chili peppers and continue sautéing  5 minutes."},
+    {"step": "Add garlic and seasonings (including brown sugar) and saute 1-3 more minutes."},
+    {"step": "Add garlic and seasonings (including brown sugar) and saute 1-3 more minutes."},
+    {"step": "Add broth, espresso, beer, beans, tomato paste, and diced tomatoes and  simmer for 30 minutes-1 hour."}]
+  }

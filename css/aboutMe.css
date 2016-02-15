@@ -1,0 +1,160 @@
+@media (max-width: 768px){
+
+	#sectionOne img{
+		width: 65%;
+		max-width: 420px;
+		left: 25% !important;
+	}
+   #sectionOne span.title , #sectionOne span.hobby{
+    	font-size: 28px !important;
+   }
+   #sectionOne span#title{
+	   	 top: 48% !important;
+	   	 left: 12% !important;
+	}
+	#sectionOne span#subTitle{
+    	top: 54% !important;
+    	left: 12% !important;
+	}
+	#sectionOne span#hobby{
+		top: 60% !important;
+		left: 12% !important;
+	}
+	#sectionOne span#subHobby{
+		top: 66% !important;
+		left: 12% !important;
+	}
+   blockquote {
+   		width: 65% !important;
+   		top: 80% !important;
+    	left: 20% !important;
+	}
+	#aboutMeHeader , #storyHeader{
+		font-size: 28px !important;
+		padding-bottom: 5%;
+	}
+	#aboutMeDesc , storyDesc{
+		font-size: 14px !important;
+	}
+   
+}
+
+
+
+#mediaSection{
+	width:170px;
+	height: 65px;
+	position: relative;
+    /*left: 90%;*/
+    left: calc(95% - 170px);
+}
+#mediaSection img{
+	/*border-left: 1px solid #EEEEEE;*/
+    padding: 5px;
+}
+#sectionOne{
+	position: relative;
+	width: 100%;
+	min-height: 600px;
+	color: #444444;
+}
+#sectionOne img{
+	position: absolute;
+	/*left:50%;*/
+	left: calc(83% - 420px);
+	box-shadow: 20px 20px 5px rgba rgba(203,203,203, 0.15);
+    -moz-box-shadow: 20px 20px 5px rgba(203,203,203, 0.15);
+    -webkit-box-shadow: 20px 20px 5px rgba(203,203,203, 0.15);
+    -khtml-box-shadow: 20px 20px 5px rgba(203,203,203, 0.15);
+}
+#sectionOne span{
+	text-transform: uppercase;
+	font-size: 40px;
+}
+#sectionOne span.title{
+	font-family: Demi;
+	font-size: 40px;
+	letter-spacing: 8px;
+	position: absolute;
+	left:calc(83% - 760px);
+}
+#sectionOne span#title{
+    top: 30%;
+}
+#sectionOne span#subTitle{
+    top: 40%;
+}
+#sectionOne span.hobby{
+	font-family: Book;
+	font-size: 40px;
+	letter-spacing: 8px;
+	position: absolute;
+	left:calc(83% - 760px);
+}
+#sectionOne span#hobby{
+	top:50%;
+}
+#sectionOne span#subHobby{
+	top:60%;
+}
+blockquote { 
+    position: absolute;
+    width:25%;
+    font-family: BkObl;
+    font-size: 16px;
+    top: 90%;
+    left: 32%;
+    border-left: none;
+}
+blockquote span{
+	font-family: MdObl;
+	font-size: 16px !important;
+}
+blockquote {
+ 	quotes: "“" "”";
+}
+blockquote:before {
+    content: open-quote;
+}
+ 
+blockquote:after {
+    content: close-quote;
+}
+#aboutMe{
+	padding: 10% 20% 7% 20%;
+	/*position: relative;
+	width: 70%;
+    left: 20%;*/
+}
+#aboutMeHeader{
+	color: #444444;
+	font-family: Demi;
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+}
+#aboutMeHeader span{
+	border-bottom: 4px solid #6B59EE;
+}
+#aboutMeDesc{
+	color:#999999;
+	font-family: Md;
+	font-size: 16px;
+	padding-top: 3%;
+}
+#story{
+	background-color: #A79FF4;
+	color:#FFFFFF;
+	padding: 7% 20% 7% 20%;
+}
+#storyHeader{
+	font-family: Demi;
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+}
+#storyDesc{
+	font-family: Md;
+	font-size: 16px;
+
+}

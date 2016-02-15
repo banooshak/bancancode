@@ -1,0 +1,121 @@
+@media (max-width: 768px){
+   .recipeDtShortInfo span{
+    font-size: 28px !important;
+   }
+   #opinionHeader span{
+    font-size: 28px !important;
+   }
+   p#opinion{
+    font-size: 14px !important;
+   }
+   div.directions{
+    padding-top: 5%;
+   }
+}
+
+@media (min-width: 769px){
+    
+}
+
+
+
+
+
+
+#detailBox{
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.recipeDtShortInfo{
+	margin-right: auto;
+	margin-left: auto;
+}
+.recipeDtShortInfo span{
+    color:#444444;
+    font-family: Demi;
+    font-size: 40px;
+    letter-spacing: 8px;
+    top:5%;
+}
+.recipeImage{
+	box-shadow: 20px 20px 5px rgba rgba(203,203,203, 0.15);
+    -moz-box-shadow: 20px 20px 5px rgba(203,203,203, 0.15);
+    -webkit-box-shadow: 20px 20px 5px rgba(203,203,203, 0.15);
+    -khtml-box-shadow: 20px 20px 5px rgba(203,203,203, 0.15);
+
+    width: 100%;
+}
+div.box{
+	margin-top: 30px;
+}
+.total-time{
+   display:inline-block;
+   margin-right: 20px;
+}
+span.titleTH{
+    font-family: Demi;
+    font-size: 18px;
+    color: #444444;
+    text-transform: uppercase;
+}
+span.titleTT{
+    font-family: Demi;
+    font-size: 24px;
+    color: #6B59EE;
+}
+.time-details{
+	display:inline-block;
+}   
+
+.ingredients ul {
+    list-style: none;
+    padding: 0;
+    font-family: Book;
+    font-size: 14px;
+    color: #444444;
+}
+
+.directions ol {
+    list-style: none;
+    padding-left: 0;
+    font-family: Book;
+    font-size: 14px;
+    color: #444444;
+    /*position: relative;*/
+
+}
+#opinionHeader{
+    padding-top: 5%;
+}
+#opinionHeader span{
+    color:#444444;
+    font-family: Demi;
+    font-size: 40px;
+    border-bottom: 4px solid #6B59EE;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+p#opinion{
+    color:#999999;
+    font-family: Md;
+    font-size: 16px;
+    padding-top: 3%;
+}
+#stepsToMake{
+    padding-top: 5%;
+}
+span.stepsHeader{
+    font-family: Demi;
+    font-size: 20px;
+    color: #444444;
+    letter-spacing: 8px;
+}
+
+.prepCook{
+    color: #999999;
+    font-family: Md;
+    font-size: 14px;
+}

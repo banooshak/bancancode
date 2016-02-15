@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="cache-control" content="max-age=0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+    <meta http-equiv="pragma" content="no-cache" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/form_createRecipe.css">
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+   <form action="recipeDetail.html" method="post">
+    <fieldset>
+        <legend>Create a recipe</legend>
+        <label for="title">Title</label>
+        <input type="text" name="title" placeholder="Title" required>
+        <label for="image_url">Image URL</label>
+        <input type="url" name="image_url" placeholder="image_url" required>
+        <label for="total_time">Total Time</label>
+        <input type="text" name="total_time" placeholder="total_time" required>
+        <label for="prep_time">Prep Time</label>
+        <input type="prep_time" name="prep_time" placeholder="prep_time" required>
+        <label for="cook_time">Cook Time</label>
+        <input type="cook_time" name="cook_time" placeholder="cook_time" required>
+        <br>
+        <label for="my_opinion">My Opinion</label>
+        <textarea id="my_opinion" rows="6" cols="100" name="my_opinion" placeholder="my_opinion" required></textarea>
+        <br>
+        <button type="button" id="addIngredients">ADD INGREDIENTS</button>
+        <div class="formTable">
+            <div class="rowTable">
+                <div class="tableTitle"><span class="rowLabel">Item</span></div>
+                <div class="tableTitle"><span class="rowLabel">Quantity</span></div>
+                <div class="tableTitle"><span class="rowLabel">UOM</span></div>
+                <div class="deleteBox"><span class="rowLabel">Delete</span></div>
+            </div><!-- /row table-->
+        </div><!-- /Form Table for ingredients-->
+
+        <br>
+        <button type="button" id="addDirections">ADD Directions</button>
+        <div class="formTableDirect">
+            <div class="rowTableDirect">
+                <div class="tableTitleDirect"><span class="rowLabelDirect">Step</span></div>
+                <div class="tableTitleDirect desCell"><span class="rowLabelDirect">Descriptions</span></div>
+                <div class="deleteBoxDirect"><span class="rowLabelDirect">Delete</span></div>
+            </div><!-- /row table Directions-->
+        </div><!-- /Form Table for Directions-->
+
+        <input type="submit" id="submit" value="Submit">
+    </fieldset>
+</form> 
+
+ <!-- jQuery library -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/form_createRecipe.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.recipeDetailPadding{
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.recipeDtShortInfo{
+	margin-right: auto;
+	margin-left: auto;
+}
+.img{
+	box-shadow: 10px 10px 5px #ccc; 
+	-moz-box-shadow: 10px 10px 5px #ccc; 
+	-webkit-box-shadow: 10px 10px 5px #ccc; 
+	-khtml-box-shadow: 10px 10px 5px #ccc;
+	}
+section.container{
+	margin-top: 30px;
+}
+.ingredients ul {
+    list-style: none;
+        padding: 0;
+}
+
+.directions ol {
+    list-style: none;
+    padding-left: 0;
+    position: relative;

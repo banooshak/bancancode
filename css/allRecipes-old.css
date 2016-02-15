@@ -1,0 +1,109 @@
+#sidebar{
+	background: #6B59EE;
+	color: #FFF;
+    height: 100%;
+	padding-right: 0;
+    padding-top: 20px;
+}
+
+#sidebar .nav {
+  width: 95%;
+}
+
+
+
+.upperBox{
+border: 1px solid black;
+height: 110px;
+}
+.lowerBox{
+border: 1px solid black;
+height: 110px;
+}
+
+
+.mainBox{
+	/*border: 1px solid black;*/
+	height: 550px;
+}
+.textBox{
+	left:20%;
+	top:270px;
+	/*height: 200px;*/
+	float:left;
+	display:inline-block;
+	width:400px;
+	/*position: fixed;*/
+    position: relative;
+	border: 1px solid black;
+}
+.titleRecipe{
+	font-size: 40px;
+	letter-spacing: 14px;
+	margin-bottom: 10px;
+}
+.descRecipe{
+	font-size: 14px;
+}
+.imageBox{
+	left:50%;
+	height:400px;
+    float:right;
+    display:inline-block;
+    width:600px;
+    border: 1px solid black;
+}
+.readMoreButt{
+	text-align: center;
+	margin-top: 15px;
+}
+
+
+
+.imageBox{
+	margin-right: 140px;
+	transition-property: margin;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+/*    transition-delay: 100ms;*/
+}
+.imageBox img{
+	opacity: 1;
+	width: 550px;
+	transition-property: opacity width;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+}
+
+.transformImg{
+	margin-right: 280px;
+    transition-property: margin;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+   /* transition-delay: 100ms;*/
+
+}
+.transformImg img{
+	opacity: 0.5;
+	width: 400px;
+	transition-property: opacity width;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+/*    transition-delay: 100ms;*/
+}
+.transformText{
+	opacity: 0;
+	transition-property: opacity;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+}
+.textBox{
+	transition-property: opacity;
+    transition-duration: 400ms;
+    transition-timing-function: linear;
+    transition-delay: 100ms;
+}
+
+.mainBox{
+	border:3px dotted red;
+}
